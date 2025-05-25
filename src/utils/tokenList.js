@@ -1,27 +1,31 @@
+import bitcoinLogo from "../assets/btc.png";
+import ethLogo from "../assets/eth.png";
+import usdtTrc20Logo from "../assets/usdt-trc20.png";
+import usdtErc20Logo from "../assets/usdt-erc20.png";
 const tokenList = [
   {
     name: "Bitcoin",
     symbol: "BTC",
-    logo: "/assets/btc.png",
-    usdPrice: 67000,
+    logo: bitcoinLogo,
+    coingeckoId: "bitcoin"
   },
   {
     name: "Ethereum",
     symbol: "ETH",
-    logo: "/assets/eth.png",
-    usdPrice: 3100,
+    logo: ethLogo,
+    coingeckoId: "ethereum"
   },
   {
     name: "USDT (TRC-20)",
     symbol: "USDT-TRC20",
-    logo: "/assets/usdt-trc20.png",
-    usdPrice: 1,
+    logo: usdtTrc20Logo,
+    coingeckoId: "tether",
   },
   {
     name: "USDT (ERC-20)",
     symbol: "USDT-ERC20",
-    logo: "/assets/usdt-erc20.png",
-    usdPrice: 1,
+    logo: usdtErc20Logo,
+    coingeckoId: "tether",
   },
 ];
 
